@@ -258,3 +258,50 @@ text-align: left;
     margin-top: 43px;
     color: white;
 }
+/* end */
+
+/* 4th section style */
+#fourth-section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 10px 18px 10px 18px;
+    height: 210px;
+   
+}
+
+.fourth-section-content{
+    position: relative;
+    bottom: 39px;
+}
+
+.fourth-section-bg-img{
+    height: 54px;
+    width: 55px;
+    
+}
+
+.fourth-section-content-discription{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+   
+}
+
+.fourth-section-content-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* 4th section style end */
