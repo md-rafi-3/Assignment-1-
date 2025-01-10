@@ -77,9 +77,7 @@ text-align: left;
     font-weight: 700;
     line-height: 35px;
     letter-spacing: 0%;
-    text-align: left;
-  
-}
+   }
 
 .hero-img-1{
     width: 474px;
@@ -99,4 +97,164 @@ text-align: left;
     margin-top: 20px;
     color: rgb(255,255,255);
     font-size: 14px;
+}
+
+
+/* 2nd section cad style */
+.card-section-contener{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#card-section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.card-section-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 220px;
+    padding: 24px;
+}
+
+.card-section-card-img{
+    width: 60px;
+    height: 60px;
+}
+
+.card-section-card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-section-card-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-section-card-content{
+    margin-top: 20px;
+}
+
+.card-section-content-title{
+   color: rgb(14, 14, 14);
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 40px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+
+.card-section-content{
+    margin-bottom: 20px;
+}
+
+/* card section end */
+
+/* new card section style */
+#card-2nd{
+    margin-top: 80px;
+}
+
+.card-2nd-section-content-title{
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-2nd-section-content-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-2nd-section-content-head{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.card-2nd-section-contener{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 32px;
+    justify-content: space-between;
+    
+}
+
+.blue-card, .green-card,.yollow-card{
+    width: 400px;
+    height: 320px;
+    padding: 30px;
+}
+
+.blue-card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.green-card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.yollow-card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.blue-btn, .green-btn, .yollow-btn{
+    width: 120px;
+    height: 40px;
+    padding: 11px 20px 11px 20px;
+}
+
+/* .position-btn{
+    position: relative;
+    top: 40px;
+} */
+
+.green-btn{
+    margin-top: 67px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: white;
+}
+
+.blue-btn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    margin-top: 43px;
+    color: white;
+}
+
+.yollow-btn{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    margin-top: 43px;
+    color: white;
 }
