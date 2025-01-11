@@ -97,6 +97,7 @@ text-align: left;
     margin-top: 20px;
     color: rgb(255,255,255);
     font-size: 14px;
+    border: none;
 }
 
 
@@ -231,6 +232,7 @@ text-align: left;
     width: 120px;
     height: 40px;
     padding: 11px 20px 11px 20px;
+    border: none;
 }
 
 /* .position-btn{
@@ -250,6 +252,7 @@ text-align: left;
     background: rgb(84, 144, 245);
     margin-top: 43px;
     color: white;
+   
 }
 
 .yollow-btn{
@@ -348,6 +351,7 @@ select{
     border-radius: 4px;
     background: rgb(198, 228, 214);
     padding: 5px 5px 5px 5px;
+    border: none;
 }
 
 
@@ -464,10 +468,213 @@ select{
     padding: 8px 5px 8px 5px;
     margin-top: 32px;
     color: white;
+    border: none;
 }
 
 .news-card-contener{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+/* donet section */
+#donet-section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.donet-head{
+    text-align: center;
+}
+
+.donet-title{
+    color: rgb(14, 14, 14);   
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donet-discription{
+    color: rgba(14, 14, 14, 0.7);  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donet-section-contener{
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.donet-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 240px;
+    height: 120px;
+    padding-top: 43px;
+    padding-left: 63px;
+    transition:  0.5s ease, color 0.5s ease;
+    
+}
+
+.donet-amount{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.donet-box:hover{
+   background-color: rgb(198, 228, 214) ; 
+}
+
+.input-taka{
+    margin-top: 32px;
+    padding: 20px 40px 20px 40px;
+    /* box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+input{
+    width: 1032px;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.18);
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+
+
+.donet-btn{
+    width: 125px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: white;
+}
+
+/* last section */
+#last-section{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    text-align: center;
+  justify-content: center;
+}
+
+.last-head{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.last-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.input-email{
+    width: 600px;
+    height: 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+}
+
+.subscribe-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white;
+    position: absolute;
+    border: none;
+    text-align: center;
+    
+}
+
+.subscribe{
+    position: relative;
+}
+
+.last-text{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.footer-head{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin-bottom: 5px;
+    
+}
+hr{
+    width: 800px;
+    margin-left: 220px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.icon-contener{
+    display: flex;
+    margin-top: 8px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-icon{
+    width: 18px;
+    height: 18px;
 }
