@@ -762,3 +762,8 @@ input:hover{
     color: black;
     background-color: #FFFAEC;
 }
+
+body{
+    max-width: 1290px;
+    margin: auto;
+}
