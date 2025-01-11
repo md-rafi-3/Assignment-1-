@@ -35,6 +35,7 @@ text-align: left;
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+    transition:  0.35s ease, color 0.35s ease;
     
 
 }
@@ -98,6 +99,7 @@ text-align: left;
     color: rgb(255,255,255);
     font-size: 14px;
     border: none;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 
@@ -245,6 +247,7 @@ text-align: left;
     border-radius: 8px;
     background: rgb(9, 161, 92);
     color: white;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 .blue-btn{
@@ -252,6 +255,7 @@ text-align: left;
     background: rgb(84, 144, 245);
     margin-top: 43px;
     color: white;
+    transition:  0.35s ease, color 0.35s ease;
    
 }
 
@@ -260,6 +264,7 @@ text-align: left;
     background: rgb(255, 194, 57);
     margin-top: 43px;
     color: white;
+    transition:  0.35s ease, color 0.35s ease;
 }
 /* end */
 
@@ -469,6 +474,7 @@ select{
     margin-top: 32px;
     color: white;
     border: none;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 .news-card-contener{
@@ -562,6 +568,7 @@ input{
     border: 1px solid rgba(14, 14, 14, 0.18);
     background: rgb(255, 255, 255);
     outline: none;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 
@@ -573,6 +580,7 @@ input{
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: white;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 /* last section */
@@ -609,15 +617,16 @@ input{
 
 
 .input-email{
-    width: 600px;
+    width: 525px;
     height: 40px;
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
     padding: 18px 40px 18px 40px;
+    transition:  0.35s ease, color 0.35s ease;
 }
 
 .subscribe-btn{
-    width: 100px;
+    width: 90px;
     height: 40px;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
@@ -625,11 +634,13 @@ input{
     position: absolute;
     border: none;
     text-align: center;
+    transition:  0.35s ease, color 0.35s ease;
     
 }
 
 .subscribe{
     position: relative;
+    
 }
 
 .last-text{
@@ -677,4 +688,76 @@ hr{
 .footer-icon{
     width: 18px;
     height: 18px;
+}
+
+
+.hero-btn:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    color: black;
+    background-color: #FFFAEC;
+    
+}
+
+.sign-btn:hover{
+    background: rgb(0, 106, 80);
+    color: white;
+
+}
+
+.blue-btn:hover{
+    background-color: #CDC1FF;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+.green-btn:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    color: black;
+    background-color: #91AC8F;
+
+}
+
+
+.yollow-btn:hover{
+   background-color:  #FA812F;
+   box-sizing: border-box;
+   border: 1px solid rgb(0, 106, 80);
+
+}
+
+select:hover{
+    background-color: #A5B68D;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+.news-btn:hover{
+    background-color: #D6CFB4;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+.donet-btn:hover{
+    background-color: #D6CFB4;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+input:hover{
+    background-color: #FAF7F0;
+    color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+}
+.subscribe-btn:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    color: black;
+    background-color: #FFFAEC;
 }
