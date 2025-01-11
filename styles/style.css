@@ -377,3 +377,97 @@ select{
 .th-1 , .td-1{
     width: 1030px;
 }
+
+/* news section style */
+
+.news-head{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.news-heading{
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.news-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-1st-card-contener{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+    align-items: center;
+}
+
+.news-card-contener{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 32px;
+}
+
+.news-card-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.alzazeera-img{
+    width: 134px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.news-card-discription{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.news-card{
+    position: relative;
+    
+    
+}
+.news-btn{
+    border-radius: 7px;
+    background: rgb(0, 106, 80);
+    width: 100px;
+    height: 35px;
+    padding: 8px 5px 8px 5px;
+    margin-top: 32px;
+    color: white;
+}
+
+.news-card-contener{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
