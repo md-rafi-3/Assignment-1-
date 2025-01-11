@@ -122,7 +122,7 @@ text-align: left;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     width: 300px;
-    height: 220px;
+    height: 235px;
     padding: 24px;
 }
 
@@ -147,7 +147,7 @@ text-align: left;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .card-section-card-content{
@@ -204,7 +204,7 @@ text-align: left;
     margin-right: 50px;
     margin-top: 32px;
     justify-content: space-between;
-    
+    gap: 20px;
 }
 
 .blue-card, .green-card,.yollow-card{
@@ -244,7 +244,7 @@ text-align: left;
 } */
 
 .green-btn{
-    margin-top: 67px;
+    margin-top: 43px;
     border-radius: 8px;
     background: rgb(9, 161, 92);
     color: white;
